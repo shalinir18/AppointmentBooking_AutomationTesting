@@ -1,0 +1,198 @@
+﻿'Module Name: Appointment Booking Page
+'Created By: Shalini Rai
+'Sprint Date: 04-04-2022 To 08-04-2022
+'************************************************************************************************
+'Creating a Function Named ABO (Appointment Booking Option), this function will check wheather 1)the home page has Book Appointment Option is clickable and 2) Does it navigates to Specialist Page.
+'                                                    ##################GetROProperty Used##################
+Function ABO()
+Dim var1
+systemutil.Run Environment ("Chrome"), Environment("ApolloPath")
+Browser("Apollo 247 - Online Doctor").Page("Apollo 247 - Online Doctor").Link("Book Appointment with").Check CheckPoint("Book Appointment with Apollo Doctors")
+Browser("Apollo 247 - Online Doctor").Page("Apollo 247 - Online Doctor").Link("Book Appointment with").Click
+Browser("Apollo 247 - Online Doctor").Page("Online Doctor Consultation").WebElement("Specialities").Check CheckPoint("Specialities")
+var1=Browser("Apollo 247 - Online Doctor").Page("Online Doctor Consultation").WebElement("Specialities").GetROProperty("innertext")
+If var1="Specialities" Then
+	msgbox "Specialities page is displayed"
+End If
+If Browser("Apollo 247 - Online Doctor").Page("Apollo 247 - Online Doctor").Exist(10) Then
+	Reporter.ReportEvent micPass,"ABO","Appointment Booking Page Verified"
+	Else 
+	Reporter.ReportEvent micFail,"ABO","Appointment Booking Page Not Verified"
+End If
+End Function
+'************************************************************************************************
+
+'************************************************************************************************
+'Creating a Function named SC (Search Check) in order to validate wheather 1) It is clickable 2) Wheather it Accepts input from user 3) The list displayed is correct or not
+'                                 ##################Static Descriptive Programming Starts##################
+Function SC()
+Browser("Apollo 247 - Online Doctor").Page("Online Doctor Consultation").Sync	
+Browser("Apollo 247 - Online Doctor").Page("Online Doctor Consultation").WebEdit("Search doctors or specialities").Check CheckPoint("Search doctors or specialities")
+Browser("micclass:=Browser","name:=Online.*").Page("micclass:=Page","title:=Online.*").WebEdit("type:=text","html tag:=INPUT").Set "Neha"
+Browser("Apollo 247 - Online Doctor").Page("Online Doctor Consultation").WebElement("Dr. Neha Jain").Check CheckPoint("Dr. Neha Jain")
+Browser("Online Doctor Consultation").Page("Online Doctor Consultation").WebElement("Dr. Neha Nakra").Check CheckPoint("Dr. Neha Nakra")
+Browser("Online Doctor Consultation").Page("Online Doctor Consultation").WebElement("Dr. Neha Gupta").Check CheckPoint("Dr. Neha Gupta")
+Browser("micclass:=Browser","name:=Online.*").Page("micclass:=Page","title:=Online.*").WebEdit("type:=text","html tag:=INPUT").Set ""
+Browser("Apollo 247 - Online Doctor").Page("Online Doctor Consultation").WebElement("Top Specialties").Check CheckPoint("Top Specialties")
+If Browser("Apollo 247 - Online Doctor").Page("Online Doctor Consultation").Exist(10) Then
+	Reporter.ReportEvent micPass,"SC","Search Check Verified"
+	Else
+	Reporter.ReportEvent micFail,"SC","Search Check Not Verified"
+End If
+End Function
+'                                     ##################Static Descriptive Programming Ends##################
+'************************************************************************************************
+
+'************************************************************************************************
+'Creating a Function named PC (Page Check) in order to validate 1)Top specialist are clickable. 2)Navigation is correct
+                                      '#####################CheckPoint Used#####################
+Function PC()
+Browser("Apollo 247 - Online Doctor").Page("Online Doctor Consultation").Sync
+Browser("Apollo 247 - Online Doctor").Page("Online Doctor Consultation").Link("Covid ConsultationTreatment").Click
+Browser("Apollo 247 - Online Doctor").Page("Online Covid Consultation,").WebElement("Online Covid consultation").Check CheckPoint("Online Covid consultation")
+If Browser("Apollo 247 - Online Doctor").Page("Online Covid Consultation,").Exist(10) Then
+	Reporter.ReportEvent micPass,"PC","Page Check Done"
+	Else
+	Reporter.ReportEvent micFail, "PC","Page Check Not Done"
+End If
+End Function
+'************************************************************************************************
+
+'************************************************************************************************
+'Created a function FO (Filter Option) in order to validate 1)Filter is visible 2)Filter is clickable 3) What are the different Containers in Filters. 3)Can the choosen filter be applied 
+Function FO()
+Browser("Apollo 247 - Online Doctor").Page("Online Covid Consultation,").Sync
+Browser("Apollo 247 - Online Doctor").Page("Online Covid Consultation,").WebElement("Sort By: AvailabilityOnline").Check CheckPoint("Sort By: AvailabilityOnline ConsultsIn-Person ConsultsFilters")
+Browser("Apollo 247 - Online Doctor").Page("Online Covid Consultation,").WebElement("Filters").Check CheckPoint("Filters")
+Wait (5)
+Browser("Apollo 247 - Online Doctor").Page("Online Covid Consultation,").WebButton("Filters").Click
+Browser("Apollo 247 - Online Doctor").Page("Online Covid Consultation,").WebButton("Fees_2").Click
+Browser("Apollo 247 - Online Doctor").Page("Online Covid Consultation,").WebButton("500 - 1000_2").Click
+Browser("Apollo 247 - Online Doctor").Page("Online Covid Consultation,").WebButton("Apply Filters_3").Click
+Browser("Apollo 247 - Online Doctor").Page("Online Covid Consultation,").WebElement("500 - 1000").Check CheckPoint("500 - 1000")
+If Browser("Apollo 247 - Online Doctor").Page("Online Covid Consultation,").Exist(10) Then
+	Reporter.ReportEvent micPass,"FO","Filter options are verified"
+	Else
+	Reporter.ReportEvent micFail,"FO","Filter Option not verified"
+End If
+End Function
+'************************************************************************************************
+
+'************************************************************************************************
+'Creating a function named DD (Doctor Details) which will validate whaether all the relevant details of the doctor is displayed before booking the slot. 
+Function DD()
+Browser("Apollo 247 - Online Doctor").Page("Online Covid Consultation,").Sync
+'Browser("Apollo 247 - Online Doctor").Page("Online Covid Consultation,").WebElement("mainContainerCT").Click
+Browser("Apollo 247 - Online Doctor").Page("Online Covid Consultation,").Link("Dr. Neha JainDiabetologist18").Click
+Browser("Apollo 247 - Online Doctor").Page("Dr. Neha Jain,Diabetologist").WebButton("Book Hospital Visit").Check CheckPoint("Book Hospital Visit")
+Browser("Apollo 247 - Online Doctor").Page("Dr. Neha Jain,Diabetologist").WebElement("EducationMBBS, Fellow").Check CheckPoint("EducationMBBS, Fellow (Diabetes Management)")
+Browser("Apollo 247 - Online Doctor").Page("Dr. Neha Jain,Diabetologist").WebElement("APOLLO SUGAR CLINICS GURUGRAM,").Check CheckPoint("APOLLO SUGAR CLINICS GURUGRAM,Gurugram")
+Browser("Apollo 247 - Online Doctor").Page("Dr. Neha Jain,Diabetologist").WebElement("Registration Number").Check CheckPoint("Registration Number")
+Browser("Apollo 247 - Online Doctor").Page("Dr. Neha Jain,Diabetologist").WebElement("English, Hindi, Punjabi").Check CheckPoint("English, Hindi, Punjabi")
+If Browser("Apollo 247 - Online Doctor").Page("Dr. Neha Jain,Diabetologist").Exist(10) Then
+Reporter.ReportEvent micPass,"DD","Doctor Details Page opens up"
+Else
+Reporter.ReportEvent micFail,"DD","Doctor Details is not opening up"
+End If
+End Function
+'************************************************************************************************
+
+'************************************************************************************************
+'Creating a function named SLC (Slot Check) which validates wheather the user can choose his desired slot out of the slots that are available.
+Function SLC()
+Browser("Apollo 247 - Online Doctor").Page("Dr. Neha Jain,Diabetologist").Sync
+Browser("Apollo 247 - Online Doctor").Page("Dr. Neha Jain,Diabetologist").WebButton("Book Hospital Visit").Click
+'Browser("Apollo 247 - Online Doctor").Page("Dr. Neha Jain,Diabetologist").WebButton("Book Hospital Visit_2").Click
+Wait (5)
+Browser("Apollo 247 - Online Doctor").Page("Dr. Neha Jain,Diabetologist").WebButton("PROCEED").Click
+Browser("Apollo 247 - Online Doctor").Page("https://www.apollo247.com/pay-").WebElement("Checkout").Check CheckPoint("Checkout")
+If Browser("Apollo 247 - Online Doctor").Page("https://www.apollo247.com/pay-").Exist(10) Then	
+Reporter.ReportEvent micPass,"SLC","Slot Confirmed"
+Else
+Reporter.ReportEvent micFail,"SLC","Slot Not Confirmed"
+End If
+End Function
+'************************************************************************************************
+
+'************************************************************************************************
+'Creating a function SP (Select Patient) which allows the user to select the desired aptient who wants to get the consultation
+Function SP()
+Browser("Apollo 247 - Online Doctor").Page("https://www.apollo247.com/pay-").WebElement("Who is the patient?").Check CheckPoint("Who is the patient?")	
+Browser("Apollo 247 - Online Doctor").Page("https://www.apollo247.com/pay-").WebElement("Patient Details").Check CheckPoint("Patient Details")
+Wait (5)
+If Browser("Apollo 247 - Online Doctor").Page("https://www.apollo247.com/pay-").Exist(10) Then
+	Reporter.ReportEvent micPass,"SP","Patient Selected successfully"
+	Else
+	Reporter.ReportEvent micFail,"SP","Can't select Patient"
+End If
+End  Function
+'************************************************************************************************
+
+'************************************************************************************************
+'Creating a function CCC (Check Consultation Charges) to validate wheather the user can check the charges for consultation before they proceed with the Confirmation
+Function CCC()
+Browser("Apollo 247 - Online Doctor").Page("https://www.apollo247.com/pay-").WebElement("Subtotal").Check CheckPoint("Subtotal")
+Browser("Apollo 247 - Online Doctor").Page("https://www.apollo247.com/pay-").WebElement("To Pay").Check CheckPoint("To Pay")
+Browser("Apollo 247 - Online Doctor").Page("https://www.apollo247.com/pay-").WebElement("Rs. 800.00").Check CheckPoint("Rs. 800.00")
+Browser("Apollo 247 - Online Doctor").Page("https://www.apollo247.com/pay-").WebButton("Pay at Hospital_2").Click
+If Browser("Apollo 247 - Online Doctor").Page("https://www.apollo247.com/pay-").Exist(10) Then
+	Reporter.ReportEvent micPass,"CCC","Consultaion Charges Visible"
+	Else
+	Reporter.ReportEvent micFail,"CCC","Consultation charges not visible"
+End If
+End Function
+'              ##################Used Regular Expression to check the Consultaion Charges##################
+'************************************************************************************************
+
+'************************************************************************************************
+'Created SCO (Slot Confirmation Option) function in order to validate wheather any confirmation message pops up on booking and can the patient cancel their appointment.
+Function SCO()
+Browser("Apollo 247 - Online Doctor").Page("Page").WebElement("Appointment Confirmation").Check CheckPoint("Appointment Confirmation")
+Browser("Apollo 247 - Online Doctor").Page("Page").WebButton("OK, GOT IT").Click
+'Browser("Apollo 247 - Online Doctor").Page("Page").Link("Appointments").Click
+'Browser("Apollo 247 - Online Doctor").Page("Page").WebButton("VIEW DETAILS").Click
+Browser("Apollo 247 - Online Doctor").Page("Page").Sync
+Browser("Apollo 247 - Online Doctor").Refresh
+Browser("Apollo 247 - Online Doctor").Page("Page").WebButton("VIEW DETAILS_3").Click
+Browser("Apollo 247 - Online Doctor").Page("Apollo_3").WebButton("MANAGE").Click
+Browser("Apollo 247 - Online Doctor").Page("Apollo_3").WebButton("Reschedule Appointment").Check CheckPoint("Reschedule Appointment_2")
+Browser("Apollo 247 - Online Doctor").Page("Apollo_3").WebButton("Cancel Appointment").Check CheckPoint("Cancel Appointment_2")
+Browser("Apollo 247 - Online Doctor").Page("Apollo_3").WebButton("Cancel Appointment_2").Click
+Browser("Apollo 247 - Online Doctor").Page("Apollo_3").WebButton("Cancel Consult").Click
+Browser("Apollo 247 - Online Doctor").Page("Apollo_4").WebButton("Select reason for cancelling").Click
+Browser("Apollo 247 - Online Doctor").Page("Apollo_3").WebList("Select reason for cancellingDo").Select "Booked with wrong user details"
+Browser("Apollo 247 - Online Doctor").Page("Apollo_3").WebEdit("Enter your comments here…").Set "Default Comment"
+Browser("Apollo 247 - Online Doctor").Page("Apollo_3").WebButton("Submit Request").Click
+Browser("Apollo 247 - Online Doctor").Page("Page").WebButton("OK, GOT IT_4").Click
+If Browser("Apollo 247 - Online Doctor").Page("Page").Exist(10) Then
+	Reporter.ReportEvent micPass,"SCO","Slot Confirmation sent on Patient's phone"
+	Else
+	Reporter.ReportEvent micFail,"SCO","Can't Confirm Slot"
+End If
+Browser("Apollo 247 - Online Doctor").Close
+End Function
+'************************************************************************************************
+
+'************************************************************************************************
+'Created ANP (Add New Patient) function which will allow the registered user to add new members with his profile. By giving all the mandatory details such as First Name, Last Name, Date of Birth.
+'                                          ##################Input Passed  through Data Table##################
+Function ANP (FirstName,LastName,DateOfBirth)
+Systemutil.Run Environment("Chrome"),Environment("ApolloPath")
+Browser("Apollo 247 - Online Doctor").Page("Apollo 247 - Online Doctor").WebElement("WebElement_2").Click
+Browser("Apollo 247 - Online Doctor").Page("Apollo 247 - Online Doctor").Link("Manage Profiles").Click
+'Browser("Apollo 247 - Online Doctor").Page("Apollo 247 - Online Doctor_2").Image("Profile").Click
+'Browser("Apollo 247 - Online Doctor").Page("Apollo 247 - Online Doctor_2").Link("Manage Profiles").Click
+Browser("Apollo 247 - Online Doctor").Page("Apollo 247 - Online Doctor_3").WebButton("Add New Profile").Click
+Browser("Apollo 247 - Online Doctor").Page("Apollo 247 - Online Doctor_3").WebEdit("First Name").Set FirstName
+Browser("Apollo 247 - Online Doctor").Page("Apollo 247 - Online Doctor_3").WebEdit("Last name").Set LastName
+Browser("Apollo 247 - Online Doctor").Page("Apollo 247 - Online Doctor_3").WebElement("Date Of Birth").Click
+Browser("Apollo 247 - Online Doctor").Page("Apollo 247 - Online Doctor_3").WebEdit("dd/mm/yyyy").Set DateOfBirth
+Browser("Apollo 247 - Online Doctor").Page("Apollo 247 - Online Doctor_3").WebButton("Female").Click
+Browser("Apollo 247 - Online Doctor").Page("Apollo 247 - Online Doctor_3").WebButton("​").Click
+Browser("Apollo 247 - Online Doctor").Page("Apollo 247 - Online Doctor_3").WebList("BrotherCousinDaughterFatherGra").Select "Brother"
+Browser("Apollo 247 - Online Doctor").Page("Apollo 247 - Online Doctor_3").WebButton("Save").Click
+Browser("Apollo 247 - Online Doctor").Page("Apollo 247 - Online Doctor_3").WebButton("CONFIRM").Click
+Wait (2)
+Browser("Apollo 247 - Online Doctor").Close
+End Function
+'************************************************************************************************

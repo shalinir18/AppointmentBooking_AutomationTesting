@@ -1,0 +1,10 @@
+<Environment>
+	<Variable>
+		<Name>ApolloPath</Name>
+		<Value><![CDATA[https://www.apollo247.com/]]></Value>
+	</Variable>
+	<Variable>
+		<Name>Chrome</Name>
+		<Value><![CDATA[C:\Program Files\Google\Chrome\Application\chrome.exe]]></Value>
+	</Variable>
+</Environment>

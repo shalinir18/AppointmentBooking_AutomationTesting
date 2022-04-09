@@ -1,0 +1,5564 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Transaction">
+<Data>
+    <Name>AppointmentBooking_Tr1</Name>
+    <Description>Transaction "AppointmentBooking_Tr1" started.</Description>
+    <StartTime>2022-04-10 01:14:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>b11dc1bad7b442b4979b607a91e9c7b4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "C:\Program Files\Google\Chrome\Application\chrome.exe",1</Name>
+    <StartTime>2022-04-10 01:14:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>6318c7e746d246908ffb748bd60b82d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Book Appointment with Apollo Doctors"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:14:52</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Book Appointment with]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Book Appointment with Apollo Doctors]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[href]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[https://www.apollo247.com/specialties]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[https://www.apollo247.com/specialties]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[A]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[A]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Book Appointment with Apollo Doctors]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Book Appointment with Apollo Doctors]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[text]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Book Appointment with Apollo Doctors]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Book Appointment with Apollo Doctors]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>02176f002b1a4419a058936f35821c35</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Book Appointment with</Name>
+    <Description>Link</Description>
+    <StartTime>2022-04-10 01:14:52</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Book Appointment with]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Link]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Book Appointment with Apollo Doctors]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>02176f002b1a4419a058936f35821c35</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Book Appointment with.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:14:53</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Book Appointment with]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Book Appointment with Apollo Doctors]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>02176f002b1a4419a058936f35821c35</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Apollo 247 - Online Doctor</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:14:52</StartTime>
+    <Duration>3</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Specialities"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:14:55</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Specialities]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Specialities]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[A]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[A]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Specialities]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Specialities]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Specialities</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:14:55</StartTime>
+    <Duration>4</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Specialities]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Specialities]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Doctor Consultation</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:14:55</StartTime>
+    <Duration>4</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Apollo 247 - Online Doctor.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2022-04-10 01:14:59</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Apollo 247 - Online Doctor</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:14:59</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Apollo 247 - Online Doctor</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-04-10 01:14:52</StartTime>
+    <Duration>7</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>f131b78b0eaf44bf81d43ac666134578</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>ABO</Name>
+    <Description>Appointment Booking Page Verified</Description>
+    <StartTime>2022-04-10 01:14:59</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>5ab54acbc7f04a8793b4c078e5a90833</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Online Doctor Consultation.Sync</Name>
+    <Description />
+    <StartTime>2022-04-10 01:15:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Search doctors or specialities"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:15:09</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[Search doctors or specialities]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[WebEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[INPUT]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[INPUT]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[name]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[WebEdit]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[WebEdit]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[type]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[text]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[text]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[value]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>8986abe8c135407d8f0c89e7ade9bbc7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WebEdit ].Set</Name>
+    <Description>"Neha"</Description>
+    <StartTime>2022-04-10 01:15:10</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Online Doctor Consultation via Video Call / Audio / Chat - Apollo 247 ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ WebEdit ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["Neha"]]></OperationData>
+      </TestObject>
+      <IconKey>8986abe8c135407d8f0c89e7ade9bbc7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Search doctors or specialities</Name>
+    <Description>WebEdit</Description>
+    <StartTime>2022-04-10 01:15:09</StartTime>
+    <Duration>3</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[Search doctors or specialities]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebEdit]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[WebEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8986abe8c135407d8f0c89e7ade9bbc7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Dr. Neha Jain"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:15:12</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Dr. Neha Jain]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Dr. Neha Jain]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[H2]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[H2]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[H2]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Dr. Neha Jain]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Dr. Neha Jain]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Dr. Neha Jain</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:15:12</StartTime>
+    <Duration>20</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Dr. Neha Jain]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Dr. Neha Jain]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[H2]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Doctor Consultation</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:15:09</StartTime>
+    <Duration>23</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Apollo 247 - Online Doctor</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-04-10 01:15:09</StartTime>
+    <Duration>23</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>f131b78b0eaf44bf81d43ac666134578</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Dr. Neha Nakra"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:15:32</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Dr. Neha Nakra]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Dr. Neha Nakra]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[H2]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[H2]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[H2]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Dr. Neha Nakra]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Dr. Neha Nakra]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Dr. Neha Nakra</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:15:32</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Dr. Neha Nakra]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Dr. Neha Nakra]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[H2]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Dr. Neha Gupta"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:15:32</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Dr. Neha Gupta]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Dr. Neha Gupta]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[H2]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[H2]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[H2]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Dr. Neha Gupta]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Dr. Neha Gupta]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ WebEdit ].Set</Name>
+    <Description>""</Description>
+    <StartTime>2022-04-10 01:15:33</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Online Doctor Consultation via Video Call / Audio / Chat - Apollo 247 ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Page ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[[ WebEdit ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA[""]]></OperationData>
+      </TestObject>
+      <IconKey>8986abe8c135407d8f0c89e7ade9bbc7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Dr. Neha Gupta</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:15:32</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Dr. Neha Gupta]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Dr. Neha Gupta]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[H2]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Doctor Consultation</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:15:32</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Doctor Consultation</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-04-10 01:15:32</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>f131b78b0eaf44bf81d43ac666134578</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Top Specialties"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:15:33</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Top Specialties]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Top Specialties]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[H2]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[H2]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[H2]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Top Specialties]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Top Specialties]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Top Specialties</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:15:33</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Top Specialties]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Top Specialties]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[H2]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Online Doctor Consultation.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2022-04-10 01:15:33</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Doctor Consultation</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:15:33</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Apollo 247 - Online Doctor</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-04-10 01:15:33</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>f131b78b0eaf44bf81d43ac666134578</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>SC</Name>
+    <Description>Search Check Verified</Description>
+    <StartTime>2022-04-10 01:15:33</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>5ab54acbc7f04a8793b4c078e5a90833</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Online Doctor Consultation.Sync</Name>
+    <Description />
+    <StartTime>2022-04-10 01:15:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Covid ConsultationTreatment.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:15:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Covid ConsultationTreatment]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Covid ConsultationTreatment of Covid-19Cough, Fever, Breathlessness]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>02176f002b1a4419a058936f35821c35</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Doctor Consultation</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:15:37</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Doctor Consultation]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Online Covid consultation"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:15:39</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Online Covid consultation]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Online Covid consultation]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[H1]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[H1]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[H1]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Online Covid consultation]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Online Covid consultation]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Covid consultation</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:15:39</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Online Covid consultation]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Online Covid consultation]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[H1]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Online Covid Consultation,.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2022-04-10 01:15:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Covid Consultation,</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:15:39</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Apollo 247 - Online Doctor</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-04-10 01:15:37</StartTime>
+    <Duration>2</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>f131b78b0eaf44bf81d43ac666134578</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>PC</Name>
+    <Description>Page Check Done</Description>
+    <StartTime>2022-04-10 01:15:39</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>5ab54acbc7f04a8793b4c078e5a90833</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Online Covid Consultation,.Sync</Name>
+    <Description />
+    <StartTime>2022-04-10 01:15:44</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Sort By: AvailabilityOnline ConsultsIn-Person ConsultsFilters"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:15:45</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Sort By: AvailabilityOnline]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Sort By: AvailabilityOnline ConsultsIn-Person ConsultsFilters]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[DIV]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[DIV]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Sort By: AvailabilityOnline ConsultsIn-Person ConsultsFilters]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Sort By: AvailabilityOnline ConsultsIn-Person ConsultsFilters]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Sort By: AvailabilityOnline</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:15:45</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Sort By: AvailabilityOnline]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Sort By: AvailabilityOnline ConsultsIn-Person ConsultsFilters]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Filters"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:15:45</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Filters]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Filters]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SPAN]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[SPAN]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[SPAN]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Filters]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Filters]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Filters</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:15:45</StartTime>
+    <Duration>5</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Filters]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Filters]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SPAN]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Filters.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:15:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[Filters]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Filters]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Filters]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="MuiButton-label"&gt;Filters&lt;img src="https://newassets.apollo247.com/images/ic_filters.svg" alt="Filters"&gt;&lt;/span&gt;&lt;span class="MuiTouchRipple-root"&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[BUTTON]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Fees_2.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:15:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[Fees_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Fees]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Fees]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="MuiTab-wrapper"&gt;Fees&lt;/span&gt;&lt;span class="MuiTouchRipple-root"&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[BUTTON]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>500 - 1000_2.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:15:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[500 - 1000_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[500 - 1000]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[500 - 1000]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="MuiButton-label"&gt;500 - 1000&lt;/span&gt;&lt;span class="MuiTouchRipple-root"&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[BUTTON]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Apply Filters_3.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:15:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[Apply Filters_3]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Apply Filters]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Apply Filters]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="MuiButton-label"&gt;Apply Filters&lt;/span&gt;&lt;span class="MuiTouchRipple-root"&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[BUTTON]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"500 - 1000"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:15:53</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[500 - 1000]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[500 - 1000]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SPAN]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[SPAN]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[SPAN]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[500 - 1000]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[500 - 1000]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>500 - 1000</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:15:53</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[500 - 1000]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[500 - 1000]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SPAN]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Online Covid Consultation,.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2022-04-10 01:15:53</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Covid Consultation,</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:15:44</StartTime>
+    <Duration>9</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Apollo 247 - Online Doctor</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-04-10 01:15:44</StartTime>
+    <Duration>9</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>f131b78b0eaf44bf81d43ac666134578</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>FO</Name>
+    <Description>Filter options are verified</Description>
+    <StartTime>2022-04-10 01:15:53</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>5ab54acbc7f04a8793b4c078e5a90833</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Online Covid Consultation,.Sync</Name>
+    <Description />
+    <StartTime>2022-04-10 01:16:03</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Dr. Neha JainDiabetologist18.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:16:03</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Dr. Neha JainDiabetologist18]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Dr. Neha JainDiabetologist18 YRS Exp.MBBS, Fellow (Diabetes Management) You pay ₹ 800CIRCLE MEMBER PAYS ₹ 680 UpgradeEnglish, Hindi, PunjabiAPOLLO SUGAR CLINICS GURUGRAM, Gurugram]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>02176f002b1a4419a058936f35821c35</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Covid Consultation,</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:16:03</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Covid Consultation,]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Book Hospital Visit"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:16:05</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Dr. Neha Jain,Diabetologist]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[Book Hospital Visit]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Book Hospital Visit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Book Hospital Visit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="MuiButton-label"&gt;&lt;img src="https://newassets.apollo247.com/images/hospitalVisit.svg" alt="Book Hospital Consult"&gt;Book Hospital Visit&lt;/span&gt;&lt;span class="MuiTouchRipple-root"&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[BUTTON]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[BUTTON]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[BUTTON]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Book Hospital Visit]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Book Hospital Visit]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[name]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Book Hospital Visit]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Book Hospital Visit]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[type]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[button]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[button]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Book Hospital Visit</Name>
+    <Description>WebButton</Description>
+    <StartTime>2022-04-10 01:16:05</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Dr. Neha Jain,Diabetologist]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[Book Hospital Visit]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebButton]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Book Hospital Visit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Book Hospital Visit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="MuiButton-label"&gt;&lt;img src="https://newassets.apollo247.com/images/hospitalVisit.svg" alt="Book Hospital Consult"&gt;Book Hospital Visit&lt;/span&gt;&lt;span class="MuiTouchRipple-root"&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[BUTTON]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"EducationMBBS, Fellow (Diabetes Management)"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:16:05</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Dr. Neha Jain,Diabetologist]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[EducationMBBS, Fellow]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[EducationMBBS, Fellow (Diabetes Management)]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[DIV]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[DIV]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[EducationMBBS, Fellow (Diabetes Management)]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[EducationMBBS, Fellow (Diabetes Management)]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>EducationMBBS, Fellow</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:16:05</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Dr. Neha Jain,Diabetologist]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[EducationMBBS, Fellow]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[EducationMBBS, Fellow (Diabetes Management)]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"APOLLO SUGAR CLINICS GURUGRAM,Gurugram"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:16:05</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Dr. Neha Jain,Diabetologist]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[APOLLO SUGAR CLINICS GURUGRAM,]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[APOLLO SUGAR CLINICS GURUGRAM,Gurugram]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[DIV]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[DIV]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[APOLLO SUGAR CLINICS GURUGRAM,Gurugram]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[APOLLO SUGAR CLINICS GURUGRAM,Gurugram]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>APOLLO SUGAR CLINICS GURUGRAM,</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:16:05</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Dr. Neha Jain,Diabetologist]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[APOLLO SUGAR CLINICS GURUGRAM,]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[APOLLO SUGAR CLINICS GURUGRAM,Gurugram]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Registration Number"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:16:05</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Dr. Neha Jain,Diabetologist]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Registration Number]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Registration Number]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[DIV]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[DIV]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Registration Number]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Registration Number]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Registration Number</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:16:05</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Dr. Neha Jain,Diabetologist]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Registration Number]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Registration Number]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"English, Hindi, Punjabi"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:16:06</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Dr. Neha Jain,Diabetologist]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[English, Hindi, Punjabi]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[English, Hindi, Punjabi]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[DIV]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[DIV]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[English, Hindi, Punjabi]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[English, Hindi, Punjabi]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>English, Hindi, Punjabi</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:16:06</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Dr. Neha Jain,Diabetologist]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[English, Hindi, Punjabi]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[English, Hindi, Punjabi]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Dr. Neha Jain,Diabetologist.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2022-04-10 01:16:06</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Dr. Neha Jain,Diabetologist]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Dr. Neha Jain,Diabetologist</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:16:05</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Dr. Neha Jain,Diabetologist]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Apollo 247 - Online Doctor</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-04-10 01:16:03</StartTime>
+    <Duration>3</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>f131b78b0eaf44bf81d43ac666134578</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>DD</Name>
+    <Description>Doctor Details Page opens up</Description>
+    <StartTime>2022-04-10 01:16:06</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>5ab54acbc7f04a8793b4c078e5a90833</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Dr. Neha Jain,Diabetologist.Sync</Name>
+    <Description />
+    <StartTime>2022-04-10 01:16:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Dr. Neha Jain,Diabetologist]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Book Hospital Visit.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:16:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Dr. Neha Jain,Diabetologist]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[Book Hospital Visit]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Book Hospital Visit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Book Hospital Visit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="MuiButton-label"&gt;&lt;img src="https://newassets.apollo247.com/images/hospitalVisit.svg" alt="Book Hospital Consult"&gt;Book Hospital Visit&lt;/span&gt;&lt;span class="MuiTouchRipple-root"&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[BUTTON]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>PROCEED.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:16:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Dr. Neha Jain,Diabetologist]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[PROCEED]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[PROCEED]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[PROCEED]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="MuiButton-label"&gt;PROCEED&lt;/span&gt;&lt;span class="MuiTouchRipple-root"&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[BUTTON]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Dr. Neha Jain,Diabetologist</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:16:08</StartTime>
+    <Duration>7</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Dr. Neha Jain,Diabetologist]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Checkout"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:16:15</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[https://www.apollo247.com/pay-]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Checkout]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Checkout]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[DIV]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[DIV]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Checkout]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Checkout]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Checkout</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:16:15</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[https://www.apollo247.com/pay-]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Checkout]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Checkout]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>https://www.apollo247.com/pay-.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2022-04-10 01:16:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[https://www.apollo247.com/pay-]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>https://www.apollo247.com/pay-</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:16:15</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[https://www.apollo247.com/pay-]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Apollo 247 - Online Doctor</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-04-10 01:16:08</StartTime>
+    <Duration>7</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>f131b78b0eaf44bf81d43ac666134578</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>SLC</Name>
+    <Description>Slot Confirmed</Description>
+    <StartTime>2022-04-10 01:16:15</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>5ab54acbc7f04a8793b4c078e5a90833</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Who is the patient?"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:16:20</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[https://www.apollo247.com/pay-]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Who is the patient?]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Who is the patient?]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[H2]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[H2]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[H2]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Who is the patient?]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Who is the patient?]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Who is the patient?</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:16:20</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[https://www.apollo247.com/pay-]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Who is the patient?]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Who is the patient?]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[H2]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Patient Details"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:16:20</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[https://www.apollo247.com/pay-]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Patient Details]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Patient Details]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[P]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[P]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[P]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Patient Details]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Patient Details]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Patient Details</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:16:20</StartTime>
+    <Duration>5</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[https://www.apollo247.com/pay-]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Patient Details]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Patient Details]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[P]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>https://www.apollo247.com/pay-.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2022-04-10 01:16:25</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[https://www.apollo247.com/pay-]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>https://www.apollo247.com/pay-</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:16:20</StartTime>
+    <Duration>5</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[https://www.apollo247.com/pay-]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Apollo 247 - Online Doctor</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-04-10 01:16:20</StartTime>
+    <Duration>5</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>f131b78b0eaf44bf81d43ac666134578</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>SP</Name>
+    <Description>Patient Selected successfully</Description>
+    <StartTime>2022-04-10 01:16:25</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>5ab54acbc7f04a8793b4c078e5a90833</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Subtotal"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:16:27</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[https://www.apollo247.com/pay-]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Subtotal]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Subtotal]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SPAN]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[SPAN]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[SPAN]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Subtotal]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Subtotal]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Subtotal</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:16:27</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[https://www.apollo247.com/pay-]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Subtotal]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Subtotal]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SPAN]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"To Pay"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:16:28</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[https://www.apollo247.com/pay-]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[To Pay]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[To Pay]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SPAN]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[SPAN]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[SPAN]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[To Pay]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[To Pay]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>To Pay</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:16:28</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[https://www.apollo247.com/pay-]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[To Pay]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[To Pay]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SPAN]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Rs. 800.00"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:16:28</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[https://www.apollo247.com/pay-]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Rs. 800.00]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Rs. 800.00]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SPAN]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[SPAN]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[SPAN]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Rs. 800.00]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Rs. [0-9].*.[0-9].*]]></StdChkPointPropertyExpectedValue>
+            <StdChkPointRegex><![CDATA[ON]]></StdChkPointRegex>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Rs. 800.00</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:16:28</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[https://www.apollo247.com/pay-]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Rs. 800.00]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Rs. 800.00]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SPAN]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Pay at Hospital_2.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:16:28</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[https://www.apollo247.com/pay-]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[Pay at Hospital_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Pay at Hospital]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Pay at Hospital]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="MuiButton-label"&gt;Pay at Hospital&lt;/span&gt;&lt;span class="MuiTouchRipple-root"&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[BUTTON]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>https://www.apollo247.com/pay-.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2022-04-10 01:16:28</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[https://www.apollo247.com/pay-]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>https://www.apollo247.com/pay-</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:16:27</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[https://www.apollo247.com/pay-]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Apollo 247 - Online Doctor</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-04-10 01:16:27</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>f131b78b0eaf44bf81d43ac666134578</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>CCC</Name>
+    <Description>Consultaion Charges Visible</Description>
+    <StartTime>2022-04-10 01:16:28</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>5ab54acbc7f04a8793b4c078e5a90833</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Appointment Confirmation_2"</Name>
+    <Description> </Description>
+    <StartTime>2022-04-10 01:16:31</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Page]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Appointment Confirmation]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Appointment Confirmation]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[H2]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[H2]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[H2]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Appointment Confirmation]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Appointment Confirmation]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Appointment Confirmation</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-04-10 01:16:31</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Page]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Appointment Confirmation]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Appointment Confirmation]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[H2]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>OK, GOT IT_5.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:16:31</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Page]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[OK, GOT IT_5]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[OK, GOT IT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[OK, GOT IT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="MuiButton-label"&gt;OK, GOT IT&lt;/span&gt;&lt;span class="MuiTouchRipple-root"&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[BUTTON]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Page.Sync</Name>
+    <Description />
+    <StartTime>2022-04-10 01:16:31</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Page]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Page</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:16:31</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Page]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Apollo 247 - Online Doctor.Refresh All Tabs</Name>
+    <Description />
+    <StartTime>2022-04-10 01:16:31</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+        </Path>
+        <Operation>Refresh All Tabs</Operation>
+      </TestObject>
+      <IconKey>f131b78b0eaf44bf81d43ac666134578</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>OK, GOT IT_6.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:16:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Page]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[OK, GOT IT_6]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[OK, GOT IT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[OK, GOT IT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="MuiButton-label"&gt;OK, GOT IT&lt;/span&gt;&lt;span class="MuiTouchRipple-root"&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[BUTTON]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>VIEW DETAILS_4.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:16:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Page]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[VIEW DETAILS_4]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[VIEW DETAILS]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[VIEW DETAILS]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="MuiButton-label"&gt;VIEW DETAILS&lt;/span&gt;&lt;span class="MuiTouchRipple-root"&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[BUTTON]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ MANAGE ].Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:17:03</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Apollo ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Apollo ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ MANAGE ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Cancel Appointment ].Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:17:03</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Apollo ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Apollo ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Cancel Appointment ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Cancel Consult ].Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:17:03</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Apollo ]]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[[ Apollo ]]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[[ Cancel Consult ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Page</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:16:37</StartTime>
+    <Duration>27</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Page]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Select reason for cancelling.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:17:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo_4]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[Select reason for cancelling]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Select reason for cancelling]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Select reason for cancelling]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[Select reason for cancelling]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Apollo_4</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:17:04</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo_4]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Select reason for cancellingDo.Select</Name>
+    <Description>"Booked with wrong user details"</Description>
+    <StartTime>2022-04-10 01:17:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo_3]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[Select reason for cancellingDo]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Booked with wrong user details"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[select]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[UL]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>41f108879071466fb58474c38b7dceb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Enter your comments here….Set</Name>
+    <Description>"Default Comment"</Description>
+    <StartTime>2022-04-10 01:17:05</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo_3]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[Enter your comments here…]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["Default Comment"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[placeholder]]></Name>
+            <Value><![CDATA[Enter your comments here…]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[WebEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8986abe8c135407d8f0c89e7ade9bbc7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Apollo_3</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:17:04</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo_3]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Submit Request.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:17:05</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo_6]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[Submit Request]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Submit Request]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Apollo_6</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:17:05</StartTime>
+    <Duration>4</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo_6]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>OK, GOT IT_4.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:17:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Page]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[OK, GOT IT_4]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[OK, GOT IT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[OK, GOT IT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="MuiButton-label"&gt;OK, GOT IT&lt;/span&gt;&lt;span class="MuiTouchRipple-root"&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[BUTTON]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Page.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2022-04-10 01:17:11</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Page]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Page</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:17:09</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Page]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Apollo 247 - Online Doctor</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-04-10 01:16:31</StartTime>
+    <Duration>40</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>f131b78b0eaf44bf81d43ac666134578</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>SCO</Name>
+    <Description>Slot Confirmation sent on Patient's phone</Description>
+    <StartTime>2022-04-10 01:17:11</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>5ab54acbc7f04a8793b4c078e5a90833</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Apollo 247 - Online Doctor.Close</Name>
+    <Description />
+    <StartTime>2022-04-10 01:17:11</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+        </Path>
+        <Operation>Close</Operation>
+      </TestObject>
+      <IconKey>f131b78b0eaf44bf81d43ac666134578</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="Step">
+<Data>
+    <Name>Run "C:\Program Files\Google\Chrome\Application\chrome.exe",1</Name>
+    <Description>Run "C:\Program Files\Google\Chrome\Application\chrome.exe",1</Description>
+    <StartTime>2022-04-10 01:17:15</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>6318c7e746d246908ffb748bd60b82d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>SystemUtil</Name>
+    <Description>SystemUtil</Description>
+    <StartTime>2022-04-10 01:17:15</StartTime>
+    <Duration>14</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>6318c7e746d246908ffb748bd60b82d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>WebElement_2.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:17:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[WebElement_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Manage Profiles.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:17:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Manage Profiles]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Manage Profiles]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>02176f002b1a4419a058936f35821c35</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Apollo 247 - Online Doctor</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:17:29</StartTime>
+    <Duration>4</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Add New Profile_2.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:17:34</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor_3]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[Add New Profile_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Add New Profile]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>First Name.Set</Name>
+    <Description>"DemoOne"</Description>
+    <StartTime>2022-04-10 01:17:34</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor_3]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[First Name]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["DemoOne"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[placeholder]]></Name>
+            <Value><![CDATA[First Name]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[WebEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8986abe8c135407d8f0c89e7ade9bbc7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Last name.Set</Name>
+    <Description>"Data"</Description>
+    <StartTime>2022-04-10 01:17:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor_3]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[Last name]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["Data"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[placeholder]]></Name>
+            <Value><![CDATA[Last name]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[WebEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8986abe8c135407d8f0c89e7ade9bbc7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Date Of Birth.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:17:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor_3]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Date Of Birth]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Date Of Birth]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a60881a95927434da435e5ed3f2a6dce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>dd/mm/yyyy.Set</Name>
+    <Description>"01/01/2000"</Description>
+    <StartTime>2022-04-10 01:17:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor_3]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[dd/mm/yyyy]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["01/01/2000"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[placeholder]]></Name>
+            <Value><![CDATA[dd/mm/yyyy]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[WebEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8986abe8c135407d8f0c89e7ade9bbc7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Female_3.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:17:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor_3]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[Female_3]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Female]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>​.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:17:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor_3]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[​]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[​]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[​]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span&gt;​&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>BrotherCousinDaughterFatherGra.Select</Name>
+    <Description>"Brother"</Description>
+    <StartTime>2022-04-10 01:17:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor_3]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[BrotherCousinDaughterFatherGra]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Brother"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[select]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[UL]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>41f108879071466fb58474c38b7dceb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Save_2.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:17:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor_3]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[Save_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Save]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>CONFIRM_2.Click</Name>
+    <Description />
+    <StartTime>2022-04-10 01:17:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor_3]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[CONFIRM_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[CONFIRM]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2f3c671f8dd2478e8ead53cdccfa88a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Apollo 247 - Online Doctor_3</Name>
+    <Description>Page</Description>
+    <StartTime>2022-04-10 01:17:33</StartTime>
+    <Duration>10</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor_3]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c84aa31dee4e4036b495522495a9956d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Apollo 247 - Online Doctor.Close</Name>
+    <Description />
+    <StartTime>2022-04-10 01:17:43</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+        </Path>
+        <Operation>Close</Operation>
+      </TestObject>
+      <IconKey>f131b78b0eaf44bf81d43ac666134578</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>AppointmentBooking_Tr1</Name>
+    <Description>Transaction "AppointmentBooking_Tr1" ended with "Pass" status (Total Duration: 189.1798 sec Wasted Time: 41.0936 sec).</Description>
+    <StartTime>2022-04-10 01:17:45</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>3593ec060b1c458cbec1716e75fbce06</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Apollo 247 - Online Doctor</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-04-10 01:17:11</StartTime>
+    <Duration>34</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Apollo 247 - Online Doctor]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>f131b78b0eaf44bf81d43ac666134578</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-04-10 01:14:31</StartTime>
+    <Duration>194</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>1fa786ba57cf474a9a74dc78a6125a3d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2022-04-10 01:14:31</StartTime>
+    <Duration>194</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>28924899cac0482895c0faf1b4460eb2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Driver-Apollo</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-04-10 01:14:28</StartTime>
+    <Duration>197</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>70943109314b4b9a837dde88386f467b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (American Samoa)</Locale>
+      <User>sfjbs</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>2</NumberOfCores>
+      <TotalMemory>8191</TotalMemory>
+      <HostName>vm001</HostName>
+      <OSInfo>Windows 10 20H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res35</ResultName>
+    <RunStartTime>2022-04-10 01:14:28</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

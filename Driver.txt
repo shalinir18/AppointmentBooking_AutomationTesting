@@ -1,0 +1,128 @@
+Dim karr
+karr=Array("s","s","s","s","s","s","s","s","s","s","s","s","s")
+Dim index,flag
+index=0
+Set objexcel=CreateObject("Excel.Application")
+Set objworkbook=objexcel.Workbooks.open("C:\Users\sfjbs\Desktop\HybridFramework\Organizer\Organizer1.xlsx")
+Set objmodulesheet=objworkbook.Worksheets(1)
+modrowcount=objmodulesheet.UsedRange.Rows.Count
+msgbox modrowcount
+
+Set objtestcasesheet=objworkbook.Worksheets(2)
+tcrowcount=objtestcasesheet.UsedRange.Rows.Count
+msgbox tcrowcount
+
+Set objteststepsheet=objworkbook.Worksheets(3)
+tsrowcount=objteststepsheet.UsedRange.Rows.Count
+msgbox tsrowcount
+
+
+For i=1 to modrowcount Step 1
+	
+	modexe=objmodulesheet.cells(i,3)
+	If modexe="Y" Then
+	
+	moduleid=objmodulesheet.cells(i,1)
+	
+		For j = 1 To tcrowcount Step 1
+		
+			tmoduleid=objtestcasesheet.cells(j,5)
+			
+			If moduleid=tmoduleid and objtestcasesheet.cells(j,4)="Yes" Then
+				
+				tc_testcaseid=objtestcasesheet.cells(j,1)
+				
+				For k = 1 To tsrowcount Step 1
+					ts_testcaseid=objteststepsheet.cells(k,5)
+						If tc_testcaseid=ts_testcaseid Then
+							keyword=objteststepsheet.cells(k,4)
+							
+							flag=0
+							
+							For p=0 To 12 Step 1
+									If karr(p)=keyword Then
+										flag=1
+										objteststepsheet.cells(k,7)="Executed"
+									End If
+									Next
+									
+									If flag=0 Then
+										karr(index)=keyword
+										index=index+1
+										
+										
+									Select Case keyword
+										
+										Case "ABO"
+										Call  ABO()
+										
+										Case "SC"
+										Call SC
+										
+										Case "PC"
+									        Call PC
+									       
+									
+										Case "FO"
+										Call FO
+										
+										
+										Case "DD"
+										Call DD
+										
+										Case "HV"
+										Call HV
+										
+									       Case "SLC"
+										msgbox keyword
+										Case "SP"
+										msgbox keyword
+										Case "ANP"
+										msgbox keyword
+										Case "CCC"
+										msgbox keyword
+										Case "SCO"
+										msgbox keyword
+										Case "SCL"
+										msgbox keyword
+										Case "SR"
+										msgbox keyword
+									End Select	
+									End If
+							
+						End If
+				Next
+			End If
+			
+		Next
+		
+	End If
+	
+Next
+
+
+objexcel.quit
+Set objexcel=nothing
+Set objworkbook=nothing
+Set objmodulesheet=nothing
+Set objtestcasesheet=nothing
+Set objteststepsheet=nothing
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
